@@ -1,0 +1,21 @@
+return {
+	MaxScreenWidth = 1920,
+	ArchiveFilesBackupInterval = 1,
+	MonitorIndex = 0,
+	Language = "zh-CN",
+	SeVolume = 100,
+	BgmVolume = 100,
+	SeOn = true,
+	HaveDoneSave = true,
+	ScreenWidth = 1920,
+	CompletedChapters = 0,
+	MaxScreenHeight = 1080,
+	ScreenHeight = 1080,
+	SkipTutorialChapters = true,
+	LastEnterWorldIndex = 0,
+	BgmOn = true,
+	ArchiveFilesBackupOn = true,
+	FullScreen = true,
+	AllowExecute = false,
+	HideTaiwuOriginalSurname = true
+}
