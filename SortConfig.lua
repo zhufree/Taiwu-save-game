@@ -1,55 +1,61 @@
 return {
 	ItemSortFilter = 
 	{
-		warehouse_warehouse = 
+		shop_self = 
 		{
 			SortOrder = 
 			{
 			},
-			ClassSort = false,
-			SortType = 
-			{
-			},
-			ItemFilter = 
-			{
-				[0] = 3
-			},
 			EquipFilter = 
 			{
-				[0] = 1,
 				[1] = 2,
 				[2] = 3,
 				[3] = 4,
 				[4] = 5,
 				[5] = 6,
 				[6] = 7,
-				[7] = 8
-			}
+				[7] = 8,
+				[0] = 1
+			},
+			ItemFilter = 
+			{
+				[0] = 4
+			},
+			SortType = 
+			{
+			},
+			ClassSort = false
 		},
-		warehouse_inventory = 
+		charMenu_item = 
 		{
 			SortOrder = 
 			{
 			},
-			ClassSort = false,
-			SortType = 
-			{
-			},
-			ItemFilter = 
-			{
-				[0] = 3
-			},
 			EquipFilter = 
 			{
-				[0] = 1,
 				[1] = 2,
 				[2] = 3,
 				[3] = 4,
 				[4] = 5,
 				[5] = 6,
 				[6] = 7,
-				[7] = 8
-			}
+				[7] = 8,
+				[0] = 1
+			},
+			ItemFilter = 
+			{
+				[1] = 2,
+				[2] = 3,
+				[3] = 4,
+				[4] = 5,
+				[5] = 6,
+				[6] = 7,
+				[0] = 1
+			},
+			SortType = 
+			{
+			},
+			ClassSort = false
 		},
 		charMenu_equip = 
 		{
@@ -57,9 +63,15 @@ return {
 			{
 				[0] = true
 			},
-			ClassSort = false,
-			SortType = 
+			EquipFilter = 
 			{
+				[1] = 2,
+				[2] = 3,
+				[3] = 4,
+				[4] = 5,
+				[5] = 6,
+				[6] = 7,
+				[7] = 8,
 				[0] = 1
 			},
 			ItemFilter = 
@@ -72,26 +84,27 @@ return {
 				[6] = 7,
 				[0] = 1
 			},
-			EquipFilter = 
+			SortType = 
 			{
-				[1] = 2,
-				[2] = 3,
-				[3] = 4,
-				[4] = 5,
-				[5] = 6,
-				[6] = 7,
-				[7] = 8,
 				[0] = 1
-			}
+			},
+			ClassSort = false
 		},
-		charMenu_item = 
+		warehouse_warehouse = 
 		{
 			SortOrder = 
 			{
 			},
-			ClassSort = false,
-			SortType = 
+			EquipFilter = 
 			{
+				[1] = 2,
+				[2] = 3,
+				[3] = 4,
+				[4] = 5,
+				[5] = 6,
+				[6] = 7,
+				[7] = 8,
+				[0] = 1
 			},
 			ItemFilter = 
 			{
@@ -103,6 +116,16 @@ return {
 				[6] = 7,
 				[0] = 1
 			},
+			SortType = 
+			{
+			},
+			ClassSort = false
+		},
+		shop_shop = 
+		{
+			SortOrder = 
+			{
+			},
 			EquipFilter = 
 			{
 				[1] = 2,
@@ -113,13 +136,60 @@ return {
 				[6] = 7,
 				[7] = 8,
 				[0] = 1
-			}
+			},
+			ItemFilter = 
+			{
+				[1] = 2,
+				[2] = 3,
+				[3] = 4,
+				[4] = 5,
+				[5] = 6,
+				[6] = 7,
+				[0] = 1
+			},
+			SortType = 
+			{
+			},
+			ClassSort = false
+		},
+		warehouse_inventory = 
+		{
+			SortOrder = 
+			{
+			},
+			EquipFilter = 
+			{
+				[1] = 2,
+				[2] = 3,
+				[3] = 4,
+				[4] = 5,
+				[5] = 6,
+				[6] = 7,
+				[7] = 8,
+				[0] = 1
+			},
+			ItemFilter = 
+			{
+				[0] = 3
+			},
+			SortType = 
+			{
+			},
+			ClassSort = false
 		}
 	},
 	CharacterSortFilter = 
 	{
 		UI_TaiwuVillagers = 
 		{
+			SortOrder = 
+			{
+				[1] = 
+				{
+					[1] = 3,
+					[2] = false
+				}
+			}
 		}
 	},
 	ResidentSortFilter = 
